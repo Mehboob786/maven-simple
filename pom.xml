@@ -5,7 +5,7 @@
   <groupId>com.github.jitpack</groupId>
   <artifactId>maven-simple</artifactId>
   <version>0.2-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
  
 
   <name>Simple Maven example</name>
@@ -40,7 +40,7 @@
                     <execution>
                         <id>attach-sources</id>
                         <goals>
-                            <goal>war</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -53,7 +53,7 @@
                     <execution>
                         <id>attach-javadocs</id>
                         <goals>
-                            <goal>war</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
